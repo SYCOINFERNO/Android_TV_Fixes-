@@ -3,20 +3,25 @@ This hold all the tips and quirks I found while I was experimenting with the fea
 
 
 
-# *Now first thing first If you want to do any of this you need to have adb or platform tools inorder to do some of these features*
+## *Now first thing first If you want to do any of this you need to have adb or platform tools inorder to do some of these features*
 
 Install platform tools from https://developer.android.com/tools/releases/platform-tools on to your device like a Laptop 
  *  Sheild Optimizer from github https://github.com/bryanroscoe/shield_optimizer
- *  if you dont want to use your laptop then i recommend using atvTools by tvDev
- *  
+ *  If you dont want to use your laptop then i recommend using atvTools by tvDev
+   
 Next I would start with what tv you have 
     *  Sony
     *  TCL
     *  etc
 
 Now I like not having any Ads or unessessary content on my landing page for a TV 
-So starting with that lets change that 
+So starting with that,
 
+##Sheild Optimizer 
+Is application that connect to your tv via wireless debugging and allows you to take control of your TV
+
+##Scrcpy
+This connect to your TV giving you the ability to use the keyboard and mouse as it might be difficult to do everything with just the remote 
 
 ##Launchers
 Launchers are what allows you to actually change the way you see the tv's content
