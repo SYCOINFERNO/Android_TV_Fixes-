@@ -18,15 +18,15 @@ Next I would start with what tv you have
 Now I like not having any Ads or unessessary content on my landing page for a TV 
 So starting with that,
 
-##Sheild Optimizer 
+## Sheild Optimizer 
 Is application that connect to your tv via wireless debugging and allows you to take control of your TV.
 
 The easiest way to tweek the AndroidTV is running the tweeks option in the app, by uninstalling the unused apps and the system apps that you don't want.
 
-##Scrcpy
+## Scrcpy
 This connect to your TV giving you the ability to use the keyboard and mouse as it might be difficult to do everything with just the remote. 
 
-##Launchers
+## Launchers
 Launchers are what allows you to actually change the way you see the tv's content
 
 I have used a few namly 
@@ -34,6 +34,17 @@ I have used a few namly
   *  FLauncher
   *  etc
 You can do a lot with the free version but you can always help the devs with taking the pro version for more personalization features.
+
+Most launchers have a way to change the home button to the new launcher.
+
+In sheild optimizer you have a way to disable the old launcher and set the new one as the default. Sometimes when you have updated the launcher the launcher might not get changed and causing the TV won't boot to any of the launchers so it might boot loop.
+
+This can be fixed by factory resetting the TV to fix the boot loop, you can look for ways to open the recovery options and factory reset it.
+
+
+## Remote Settings 
+
+After changing the launcher 
 
 
 
