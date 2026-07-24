@@ -5,9 +5,10 @@ This hold all the tips and quirks I found while I was experimenting with the fea
 
 ## *Now first thing first If you want to do any of this you need to have adb or platform tools inorder to do some of these features*
 
+
 Install platform tools from https://developer.android.com/tools/releases/platform-tools on to your device like a Laptop 
  *  Sheild Optimizer from github https://github.com/bryanroscoe/shield_optimizer
- *  If you dont want to use your laptop then i recommend using atvTools by tvDev
+ *  If you dont want to use your laptop then I recommend using atvTools by tvDev
    
 Next I would start with what tv you have 
     *  Sony
@@ -18,10 +19,12 @@ Now I like not having any Ads or unessessary content on my landing page for a TV
 So starting with that,
 
 ##Sheild Optimizer 
-Is application that connect to your tv via wireless debugging and allows you to take control of your TV
+Is application that connect to your tv via wireless debugging and allows you to take control of your TV.
+
+The easiest way to tweek the AndroidTV is running the tweeks option in the app, by uninstalling the unused apps and the system apps that you don't want.
 
 ##Scrcpy
-This connect to your TV giving you the ability to use the keyboard and mouse as it might be difficult to do everything with just the remote 
+This connect to your TV giving you the ability to use the keyboard and mouse as it might be difficult to do everything with just the remote. 
 
 ##Launchers
 Launchers are what allows you to actually change the way you see the tv's content
@@ -30,6 +33,8 @@ I have used a few namly
   *  Projectivy Launcher
   *  FLauncher
   *  etc
-You can do a lot with the free version but you can always help the devs with taking the pro version for more personalization features
- 
+You can do a lot with the free version but you can always help the devs with taking the pro version for more personalization features.
+
+
+
 
