@@ -43,8 +43,21 @@ This can be fixed by factory resetting the TV to fix the boot loop, you can look
 
 
 ## Remote Settings 
+Sometimes after you have changed the Launcher the launcher requires Accessibility  settings for remapping the HOME Button and other thinks for that reason you have to give access. Now, it might not work due to the Accessibility settings turned off so for this reason you have to run the followwing command
 
-After changing the launcher 
+1. Use atvTools to connect to adb shell and prompt the following command to retrieve the correct flag:
+''' bash
+adb shell appops get dev.vodik7.tvquickactions.free
+'''
+You’ll get a list of flags. You should see APP_AUTO_START(or can be named as AUTO_START): ignore, which explains why the accessibility service automatically turns off after a while or when the TV restarts.
+
+2. Allow the APP_AUTO_START(or can be named as AUTO_START) flag using the command:
+
+adb shell appops set dev.vodik7.tvquickactions.free APP_AUTO_START allow  #(or can be named as AUTO_START)
+
+Voila! This should resolve the problem.
+
+
 
 
 
